@@ -3,12 +3,12 @@ import { Html, MeshWobbleMaterial, Text } from '@react-three/drei';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
 
-const song1 = 'src/assets/songs/kalkuta.mp3';
-const song2 = 'src/assets/songs/off.mp3';
-const song3 = 'src/assets/songs/skyline.mp3';
-const song4 = 'src/assets/songs/spider.mp3';
-const song5 = 'src/assets/songs/tron.mp3';
-const song6 = 'src/assets/songs/seeyathere.mp3';
+const song1 = '/kalkuta.mp3';
+const song2 = '/off.mp3';
+const song3 = '/skyline.mp3';
+const song4 = '/spider.mp3';
+const song5 = '/tron.mp3';
+const song6 = '/seeyathere.mp3';
 
 
 
