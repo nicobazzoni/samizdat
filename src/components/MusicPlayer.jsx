@@ -7,12 +7,12 @@ import { TextureLoader } from 'three';
 
 
 const songs = [
-    { title: "kalkuta", url: "/public/songs/kalkuta.mp3" },
-    { title: "off", url: "/public/songs/off.mp3" },
-    { title: "skyline", url: "/public/songs/skyline.mp3" },
-    { title: "spider", url: "/public/songs/spider.mp3" },
-    { title: "tron", url: "/public/songs/tron.mp3" },
-    { title: "see ya there", url: "/public/songs/seeyathere.mp3" }
+    { title: "kalkuta", url: "/src/assets/songs/kalkuta.mp3" },
+    { title: "off", url: "src/assets/songs/off.mp3" },
+    { title: "skyline", url: "src/assets/songs/skyline.mp3" },
+    { title: "spider", url: "src/assets/songs/spider.mp3" },
+    { title: "tron", url: "src/assets/songs/tron.mp3" },
+    { title: "see ya there", url: "src/assets/songs/seeyathere.mp3" }
   ];
 
   export default function AudioPlayer() {
