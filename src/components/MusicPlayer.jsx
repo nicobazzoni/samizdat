@@ -3,16 +3,23 @@ import { Html, MeshWobbleMaterial, Text } from '@react-three/drei';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
 
+const song1 = 'src/assets/songs/kalkuta.mp3';
+const song2 = 'src/assets/songs/off.mp3';
+const song3 = 'src/assets/songs/skyline.mp3';
+const song4 = 'src/assets/songs/spider.mp3';
+const song5 = 'src/assets/songs/tron.mp3';
+const song6 = 'src/assets/songs/seeyathere.mp3';
+
 
 
 
 const songs = [
-    { title: "kalkuta", url: "/src/assets/songs/kalkuta.mp3" },
-    { title: "off", url: "src/assets/songs/off.mp3" },
-    { title: "skyline", url: "src/assets/songs/skyline.mp3" },
-    { title: "spider", url: "src/assets/songs/spider.mp3" },
-    { title: "tron", url: "src/assets/songs/tron.mp3" },
-    { title: "see ya there", url: "src/assets/songs/seeyathere.mp3" }
+    { title: "kalkuta", url: song1 },
+    { title: "off", url: song2 },
+    { title: "skyline", url: song3 },
+    { title: "spider", url: song4 },
+    { title: "tron", url: song5 },
+    { title: "see ya there", url: song6 }
   ];
 
   export default function AudioPlayer() {

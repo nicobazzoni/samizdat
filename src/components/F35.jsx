@@ -63,7 +63,7 @@ import { useGLTF } from '@react-three/drei'
   )
 }
 
-useGLTF.preload('public/models/f35_fighter_jet.glb')
+useGLTF.preload('public/f35_fighter_jet.glb')
 
 export default F35
 
