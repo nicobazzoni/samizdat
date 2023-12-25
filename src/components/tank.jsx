@@ -8,7 +8,8 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/Tank.glb')
+  const { nodes, materials, animations } = useGLTF('/Tank.glb')
+  console.log(animations, 'tank 1')
   const tankRef = useRef();
   
   useFrame(({ clock }) => {
