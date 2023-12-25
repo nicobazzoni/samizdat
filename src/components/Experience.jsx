@@ -168,13 +168,13 @@ bloomColor.multiplyScalar(1.5);
 
 
 <Float floatIntensity={4} >
-  <F35 scale={0.5} position-x={-2} position-y={3} position-z={-2} />
+  <F35 scale={0.5} position-x={-1.3} position-y={4} position-z={-2} />
 </Float>
 
   <MusicPlayer />
   <Tank />
-  <Soldier scale={0.04} position={[1,-1,-5]}/>
-  <CitySoldier scale={2} position={[-3,-1,5]}/>
+  <Soldier scale={0.04} position={[1,-1,4]}/>
+  <CitySoldier scale={2} position={[-2,-1,-5]}/>
 
  
     </>

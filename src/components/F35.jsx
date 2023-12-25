@@ -11,7 +11,8 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
  function F35(props)  {
-  const { nodes, materials } = useGLTF('f35_fighter_jet.glb')
+  const { nodes, materials, animations  } = useGLTF('f35_fighter_jet.glb')
+  
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.06}>
