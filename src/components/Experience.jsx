@@ -27,6 +27,8 @@ import { useTexture } from "@react-three/drei";
 import Mask2 from "./mask2.jsx";
 import { Edges } from "@react-three/drei";
 import Jet from "./Fighter_jet.jsx";
+import Soldier from "./soldier.jsx";
+import CitySoldier from "./CitySoldier.jsx";
 
 
 
@@ -171,6 +173,8 @@ bloomColor.multiplyScalar(1.5);
 
   <MusicPlayer />
   <Tank />
+  <Soldier scale={0.04} position={[1,-1,-5]}/>
+  <CitySoldier scale={2} position={[-3,-1,5]}/>
 
  
     </>
