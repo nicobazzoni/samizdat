@@ -67,7 +67,7 @@ const songs = [
           <mesh onClick={() => handleSongSelect(index)}>
             <Text 
               position={[1.2, 2.5, 0]} 
-              fontSize={0.2} 
+              fontSize={0.3} 
               color={songColors[index]}
               font='/fonts/Poppins-Black.ttf'>
               {song.title}
